@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/work/CMSC11-Machine-Problem/build/_deps/raylib-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
