@@ -1,0 +1,98 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:16 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/home/work/.bun/bin/"
+      - "/home/work/.config/rofi/scripts/"
+      - "/home/work/.config/waybar/scripts/"
+      - "/home/work/.config/hypr/scripts/"
+      - "/home/work/dotfiles/symphony/install/themes/"
+      - "/home/work/dotfiles/scripts/"
+      - "/home/work/Scripts/"
+      - "/home/work/bin/"
+      - "/home/work/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/lib/jvm/default/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/usr/lib/rustup/bin/"
+      - "/var/lib/snapd/snap/bin/"
+      - "/bin/"
+    searched_directories:
+      - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/home/work/.bun/bin/uname"
+      - "/home/work/.config/rofi/scripts/uname"
+      - "/home/work/.config/waybar/scripts/uname"
+      - "/home/work/.config/hypr/scripts/uname"
+      - "/home/work/dotfiles/symphony/install/themes/uname"
+      - "/home/work/dotfiles/scripts/uname"
+      - "/home/work/Scripts/uname"
+      - "/home/work/bin/uname"
+      - "/home/work/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/work/.bun/bin"
+        - "/home/work/.config/rofi/scripts/"
+        - "/home/work/.config/waybar/scripts/"
+        - "/home/work/.config/hypr/scripts"
+        - "/home/work/dotfiles/symphony/install/themes"
+        - "/home/work/dotfiles/scripts"
+        - "/home/work/Scripts/"
+        - "/home/work/bin"
+        - "/home/work/dotfiles/symphony/install/themes"
+        - "/home/work/.local/bin"
+        - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/home/work/.config/Code - OSS/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/home/work/.bun/bin"
+        - "/home/work/.config/rofi/scripts/"
+        - "/home/work/.config/waybar/scripts/"
+        - "/home/work/.config/hypr/scripts"
+        - "/home/work/dotfiles/scripts"
+        - "/home/work/Scripts/"
+        - "/home/work/dotfiles/symphony/install/themes"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/usr/lib/rustup/bin"
+        - "/var/lib/snapd/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 7.1.6-arch1-1 - x86_64
+...

@@ -1,0 +1,20 @@
+# Hashes of file build rules.
+f812714e3001c05bb6796af2af0d5400 _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings
+681d9dad26c5596d8d5b1abab60bbffe _deps/raylib-build/raylib/external/glfw/src/fractional-scale-v1-client-protocol-code.h
+7d28f6323517f5f72e9b5808303bb611 _deps/raylib-build/raylib/external/glfw/src/fractional-scale-v1-client-protocol.h
+ed9a6619bb5af79c8e318addc0514925 _deps/raylib-build/raylib/external/glfw/src/idle-inhibit-unstable-v1-client-protocol-code.h
+9f6e25f8cb6f83ae6db42d2dfb4946f2 _deps/raylib-build/raylib/external/glfw/src/idle-inhibit-unstable-v1-client-protocol.h
+810ec5dae0330e1b302ec853861251a3 _deps/raylib-build/raylib/external/glfw/src/pointer-constraints-unstable-v1-client-protocol-code.h
+5d156ba1b6720ac2fbafbd5e6e0efa1a _deps/raylib-build/raylib/external/glfw/src/pointer-constraints-unstable-v1-client-protocol.h
+7ee9bb6add82a70e0ce2a5076f7cacc8 _deps/raylib-build/raylib/external/glfw/src/relative-pointer-unstable-v1-client-protocol-code.h
+9be0fca8561c522356d9fbe3ff0a44e9 _deps/raylib-build/raylib/external/glfw/src/relative-pointer-unstable-v1-client-protocol.h
+a92def2864d9cfb9a27696021656e961 _deps/raylib-build/raylib/external/glfw/src/viewporter-client-protocol-code.h
+d4a37de685289fb4590792ce5a624079 _deps/raylib-build/raylib/external/glfw/src/viewporter-client-protocol.h
+0aa9cf31cc3e4f7e3bb1502fa91be61c _deps/raylib-build/raylib/external/glfw/src/wayland-client-protocol-code.h
+57ebd90fccbea18ae7e8e087e8da4944 _deps/raylib-build/raylib/external/glfw/src/wayland-client-protocol.h
+e8197732790c6ea71a2b88029ac882a4 _deps/raylib-build/raylib/external/glfw/src/xdg-activation-v1-client-protocol-code.h
+059cf4c9935633092206a114613ffbb5 _deps/raylib-build/raylib/external/glfw/src/xdg-activation-v1-client-protocol.h
+3c4a418f6dbeb1b98b4332a27921c066 _deps/raylib-build/raylib/external/glfw/src/xdg-decoration-unstable-v1-client-protocol-code.h
+0e93edc30bd01d904f05c156527e704d _deps/raylib-build/raylib/external/glfw/src/xdg-decoration-unstable-v1-client-protocol.h
+c4a202a1ebd93d7b984a6f7fe85d53c2 _deps/raylib-build/raylib/external/glfw/src/xdg-shell-client-protocol-code.h
+e154784e82fe63489759cd113db3adca _deps/raylib-build/raylib/external/glfw/src/xdg-shell-client-protocol.h
