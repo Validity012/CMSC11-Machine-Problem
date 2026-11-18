@@ -4,7 +4,7 @@ A keyboard-only, Mario-style 2D platformer written in procedural C with [raylib]
 
 Lee is a BS Computer Science student who has not showered in days, a streak too long and risky to share. Amid side eyes and stares in the library, he has only one thing on his mind: a shower. He must cross three levels of obstacles and enemies to reach the dormitory bathrooms, where a hockey goalie stands guard. The game is lighthearted, comedic, and safe for work.
 
-> Machine Problem for **CMSC 11 Fundamentals of Programming 1 / Math 153 Computer Programming 1**, First Semester, AY 2026-2027.
+> Machine Problem for **CMSC 11 Fundamentals of Programming 1**, First Semester, AY 2026-2027.
 > University of the Philippines Tacloban, Department of Computer Science and Mathematics.
 
 ---
