@@ -193,7 +193,7 @@ This project follows the course's procedural C rules:
 The team follows an agile, Scrum-based process. Work is tracked on Taiga (project: **CMSC11 Machine Problem**) and code lives on GitHub.
 
 - **Board columns:** stories move New, Ready, In Progress, Ready for Test, Needs Info, Done. Tasks end at Closed, not Done.
-- **Branches:** one branch per card, named after the Taiga reference, for example `task-28-tile-collision`. `main` must always compile.
+- **Branches:** one branch per card, named `TG-<ref>-<short-description>`, for example `TG-28-tile-collision`. `main` must always compile.
 - **Reviews:** every change is reviewed by a second member before it is merged.
 - **Daily standup:** a short async post in the group chat. What I did, what I will do, what blocks me.
 
