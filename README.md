@@ -165,11 +165,10 @@ Project management documents live in `docs/`:
 
 | File | Contents |
 | --- | --- |
-| `docs/proposal.md` | Machine problem proposal |
-| `docs/scrum-playbook.md` | How the team runs Scrum: roles, sprint plan, rules |
-| `docs/team-quick-guide.md` | Day-to-day Taiga and GitHub routine |
+| `docs/proposal/` | Machine problem proposal, Markdown and PDF |
+| `docs/playbook/` | How the team runs Scrum: roles, sprint plan, rules, Markdown and PDF |
+| `docs/quick-guide/` | Day-to-day Taiga and GitHub routine, Markdown and PDF |
 | `docs/reports/` | Status reports, newest first |
-| `docs/assets/` | Images used by the documents |
 
 The living version is the [project wiki](https://tree.taiga.io/project/validity012-cmsc11-machine-problem/wiki/home), which carries gameplay, architecture, build, workflow, sprint, and team pages. Update the wiki when a decision changes. The files here are the submitted record.
 
