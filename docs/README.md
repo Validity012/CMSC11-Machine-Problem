@@ -2,8 +2,6 @@
 
 The submitted record for the Lee Go! machine problem. The living version of most of this material is the [project wiki](https://tree.taiga.io/project/validity012-cmsc11-machine-problem/wiki/home); these files are what gets handed in.
 
-Each document folder holds the Markdown source and the PDF generated from it. Edit the Markdown, regenerate the PDF, commit both.
-
 | Document | Markdown | PDF | Owner |
 | --- | --- | --- | --- |
 | Machine problem proposal | [proposal/proposal.md](proposal/proposal.md) | [proposal/proposal.pdf](proposal/proposal.pdf) | Chrivin |
