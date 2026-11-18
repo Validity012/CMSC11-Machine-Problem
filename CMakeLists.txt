@@ -38,6 +38,8 @@ set(PROJECT_SOURCES
     src/game.c
     src/input.c
     src/level.c
+    src/main.c
+    src/menu.c
     src/player.c
     src/projectile.c
     src/render.c
@@ -55,5 +57,5 @@ target_compile_definitions(CMSC11-Machine-Problem PRIVATE
     LEVELS_PATH="${CMAKE_CURRENT_SOURCE_DIR}/levels/"
 )
 
-message(STATUS "Configured ${PROJECT_NAME} with raylib support.")"
+message(STATUS "Configured ${PROJECT_NAME} with raylib support.")
 
