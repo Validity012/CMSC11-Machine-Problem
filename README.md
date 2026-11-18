@@ -172,6 +172,8 @@ Project management documents live in `docs/`:
 
 The living version is the [project wiki](https://tree.taiga.io/project/validity012-cmsc11-machine-problem/wiki/home), which carries gameplay, architecture, build, workflow, sprint, and team pages. Update the wiki when a decision changes. The files here are the submitted record.
 
+A read-only mirror of the same pages sits on the [GitHub wiki](https://github.com/Validity012/CMSC11-Machine-Problem/wiki). Taiga stays the source of truth; regenerate the mirror when a page changes.
+
 ---
 
 ## Code Standards
