@@ -30,10 +30,10 @@ Here is one card from start to finish, using #28 Tile Collision as the example. 
 
 1. **Find your card.** Your cards are already set up and assigned to you. Open the sprint Taskboard, find yours, and move it to In Progress when you start. Keep at most two cards In Progress at a time.
 2. **Get the latest code.** Run `git checkout main`, then `git pull`.
-3. **Make a branch.** Run `git checkout -b task-28-tile-collision`. One branch per card.
+3. **Make a branch.** Run `git checkout -b TG-28-tile-collision`. One branch per card.
 4. **Work and commit often.** Start every commit message with the card number, like `TG-28 #in-progress add tile collision check`. The first one moves your card to In Progress.
 5. **Compile with zero warnings.** Build with warnings on (-Wall -Wextra) before every push. A warning means it is not ready.
-6. **Push and open a pull request.** Run `git push -u origin task-28-tile-collision`, then open a pull request on GitHub.
+6. **Push and open a pull request.** Run `git push -u origin TG-28-tile-collision`, then open a pull request on GitHub.
 7. **Ask for a review.** Make a commit like `TG-28 #ready-for-test`, and message a teammate in the group chat.
 8. **Merge after the review passes.** The reviewer must be able to explain your code. Then merge into `main`.
 9. **QA tests it.** The QA Lead runs the build and reports back. The Scrum Master then moves the card to Done, and only the Scrum Master closes cards.
