@@ -5,7 +5,7 @@ A keyboard-only, Mario-style 2D platformer written in procedural C with [raylib]
 Lee is a BS Computer Science student who has not showered in days, a streak too long and risky to share. Amid side eyes and stares in the library, he has only one thing on his mind: a shower. He must cross three levels of obstacles and enemies to reach the dormitory bathrooms, where a hockey goalie stands guard. The game is lighthearted, comedic, and safe for work.
 
 > Machine Problem for **CMSC 11 Fundamentals of Programming 1**, First Semester, AY 2026-2027.
-> University of the Philippines Tacloban, Department of Computer Science and Mathematics.
+> University of the Philippines Tacloban, College of Natural Sciences
 
 ---
 
@@ -249,7 +249,8 @@ As of 18 November 2026, Greybox is in progress with 16 of 35 points closed.
 
 All three are developers. The Product Owner owns the backlog and its order; the Scrum Master keeps Taiga and the meetings working.
 
-Laboratory section: [Section]. Laboratory instructor: [Instructor Name].
+Laboratory section: G
+Laboratory instructor: Mr. Ronnie M.  Ramirez II
 
 ---
 
