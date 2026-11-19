@@ -8,7 +8,7 @@
 
 int main(void)
 {
-    // TODO: Open a 1280 × 720 window titled "Lee Go!" and target 60 FPS.
+    //Opens a 1280 × 720 window titled "Lee Go!" and target 60 FPS.
     const char *title = "Lee Go!";
     InitWindow(1280, 720, title);
     SetTargetFPS(60);
@@ -16,6 +16,7 @@ int main(void)
     while (!WindowShouldClose()) {
         // Future game updates go here.
 
+        //Creates the box and a text "Lee Go!"
         BeginDrawing();
         ClearBackground(GRAY);
         DrawText("Lee Go!", 40, 40, 32, BLACK);
