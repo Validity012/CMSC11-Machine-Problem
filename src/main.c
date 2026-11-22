@@ -78,6 +78,7 @@ int main(void)
                          edge_test.on_ground ? LIME : RED);
         DrawText("Lee Go!", 40, 40, 32, BLACK);
         EndDrawing();
+        main
     }
 
     CloseWindow();
