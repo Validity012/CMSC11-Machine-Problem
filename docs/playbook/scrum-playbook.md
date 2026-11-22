@@ -164,7 +164,7 @@ A story is Done only when all of these are true:
 
 ### Git and Taiga workflow
 
-1. Pull the latest `main`, then make one branch per card, named like `task-28-tile-collision`.
+1. Pull the latest `main`, then make one branch per card, named `TG-<ref>-<short-description>`, for example `TG-28-tile-collision`.
 2. Start each commit message with the Taiga reference, such as `TG-28 #in-progress add tile collision check`. The GitHub webhook is on, so the commit also moves the card (see the Team Quick Guide).
 3. Open a pull request and move the card to Ready for Test.
 4. A second member reviews it. Merge only after the review passes.

@@ -5,7 +5,7 @@ A keyboard-only, Mario-style 2D platformer written in procedural C with [raylib]
 Lee is a BS Computer Science student who has not showered in days, a streak too long and risky to share. Amid side eyes and stares in the library, he has only one thing on his mind: a shower. He must cross three levels of obstacles and enemies to reach the dormitory bathrooms, where a hockey goalie stands guard. The game is lighthearted, comedic, and safe for work.
 
 > Machine Problem for **CMSC 11 Fundamentals of Programming 1**, First Semester, AY 2026-2027.
-> University of the Philippines Tacloban, Department of Computer Science and Mathematics.
+> University of the Philippines Tacloban, College of Science
 
 ---
 
@@ -193,7 +193,7 @@ This project follows the course's procedural C rules:
 The team follows an agile, Scrum-based process. Work is tracked on Taiga (project: **CMSC11 Machine Problem**) and code lives on GitHub.
 
 - **Board columns:** stories move New, Ready, In Progress, Ready for Test, Needs Info, Done. Tasks end at Closed, not Done.
-- **Branches:** one branch per card, named after the Taiga reference, for example `task-28-tile-collision`. `main` must always compile.
+- **Branches:** one branch per card, named `TG-<ref>-<short-description>`, for example `TG-28-tile-collision`. `main` must always compile.
 - **Reviews:** every change is reviewed by a second member before it is merged.
 - **Daily standup:** a short async post in the group chat. What I did, what I will do, what blocks me.
 
@@ -249,7 +249,8 @@ As of 18 November 2026, Greybox is in progress with 16 of 35 points closed.
 
 All three are developers. The Product Owner owns the backlog and its order; the Scrum Master keeps Taiga and the meetings working.
 
-Laboratory section: [Section]. Laboratory instructor: [Instructor Name].
+Laboratory section: G
+Laboratory instructor: Mr. Ronnie M.  Ramirez II
 
 ---
 
