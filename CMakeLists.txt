@@ -20,7 +20,7 @@ if(NOT raylib_FOUND)
     FetchContent_Declare(
         raylib
         GIT_REPOSITORY "https://github.com/raysan5/raylib.git"
-        GIT_TAG "master"
+        GIT_TAG "99b0707988a581ca807c46e3ca686fa458eada01"
         GIT_PROGRESS TRUE
     )
 
@@ -29,8 +29,6 @@ endif()
 
 set(PROJECT_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
-# Keep src/player.c as the active entry point for now; the repo still has a placeholder main there.
-# Once a real main is added to src/main.c, move the entry point there and remove the placeholder.
 set(PROJECT_SOURCES
     src/audio.c
     src/bubble.c
