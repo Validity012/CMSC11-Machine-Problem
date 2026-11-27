@@ -38,10 +38,13 @@ set(PROJECT_SOURCES
     src/level.c
     src/main.c
     src/menu.c
+    src/paths.c
     src/player.c
     src/projectile.c
     src/render.c
     src/save.c
+    src/stage1_library.c
+    src/stage1_library_render.c
 )
 
 add_executable(CMSC11-Machine-Problem ${PROJECT_SOURCES})
