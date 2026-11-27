@@ -1,3 +1,4 @@
+#include "input.h"
 #include "level.h"
 #include "raylib.h"
 
@@ -7,10 +8,16 @@
  * TG 26: Creating the initial Scaffold
  * TG 27: Implementing the main loop
  * TG 28: Implementing collision detection and a LOT of testing t-t
+ * TG 40: Adding the console launcher with validated input
  */
 
 int main(void)
 {
+    // The console launcher runs before raylib opens a window.
+    if (launcher_run() == LAUNCHER_QUIT) {
+        return 0;
+    }
+
     // Opens a 1280 x 720 window titled "Lee Go!" at 60 FPS.
     const char *title = "Lee Go!";
     InitWindow(1280, 720, title);
