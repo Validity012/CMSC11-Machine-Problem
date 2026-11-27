@@ -4,6 +4,8 @@
 #include "player.h"
 #include "raylib.h"
 
+#include <stdio.h>
+
 #define MAP_COLS 40
 #define MAP_ROWS 22
 #define SPAWN_X (3 * TILE_SIZE)
@@ -52,11 +54,24 @@ static void load_map(void) {
     }
 }
 
+/* Purpose: Find an asset by name next to the executable or in the source tree. */
+static const char *asset_path(const char *name) {
+    static char path[4096];
+    int length = snprintf(path, sizeof path, "%sAssets/%s", GetApplicationDirectory(), name);
+
+    if (length >= 0 && length < (int)sizeof path && FileExists(path)) {
+        return path;
+    }
+
+    snprintf(path, sizeof path, "%s%s", ASSETS_PATH, name);
+    return path;
+}
+
 void game_init(void) {
     current_state = STATE_MENU;
     exit_requested = false;
     load_map();
-    lee_texture = LoadTexture(ASSETS_PATH "sprites/character/lee_3.png");
+    lee_texture = LoadTexture(asset_path("sprites/character/lee_3.png"));
     player_init(&player, SPAWN_X, SPAWN_Y);
     init_menu();
 }

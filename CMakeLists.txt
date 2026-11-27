@@ -55,5 +55,8 @@ target_compile_definitions(CMSC11-Machine-Problem PRIVATE
     LEVELS_PATH="${CMAKE_CURRENT_SOURCE_DIR}/levels/"
 )
 
+install(TARGETS CMSC11-Machine-Problem RUNTIME DESTINATION .)
+install(DIRECTORY Assets levels DESTINATION .)
+
 message(STATUS "Configured ${PROJECT_NAME} with raylib support.")
 
