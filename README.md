@@ -110,8 +110,8 @@ The game is keyboard only.
 
 1. Clone the repository.
 2. Configure: `cmake -S . -B build`
-3. Build: `cmake --build build`
-4. Run the executable in `build/`. On Windows the file is `CMSC11-Machine-Problem.exe`.
+3. Build: `cmake --build build --config Debug`
+4. Run the executable. With the Visual Studio generator it is `build/Debug/CMSC11-Machine-Problem.exe`; with a single-config generator (Ninja, Makefiles) it is `build/CMSC11-Machine-Problem.exe`.
 
 The build must finish with zero errors and zero warnings.
 
