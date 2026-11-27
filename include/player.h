@@ -8,9 +8,8 @@
 #define TILE_EMPTY 0
 #define TILE_SOLID 1
 #define TILE_LADDER 2
-
-#define PLAYER_WIDTH 24
-#define PLAYER_HEIGHT 32
+#define PLAYER_WIDTH 44
+#define PLAYER_HEIGHT (TILE_SIZE * 2) /* 64px: 2x taller than the 1-tile first shelf */
 #define PLAYER_MAX_HEARTS 3
 #define PLAYER_START_LIVES 3
 #define BUBBLES_PER_1UP 75 /* proposal says 75, README says 70: confirm with the team */
