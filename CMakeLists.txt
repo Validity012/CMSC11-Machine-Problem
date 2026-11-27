@@ -38,10 +38,13 @@ set(PROJECT_SOURCES
     src/level.c
     src/main.c
     src/menu.c
+    src/paths.c
     src/player.c
     src/projectile.c
     src/render.c
     src/save.c
+    src/stage1_library.c
+    src/stage1_library_render.c
 )
 
 add_executable(CMSC11-Machine-Problem ${PROJECT_SOURCES})
@@ -54,6 +57,9 @@ target_compile_definitions(CMSC11-Machine-Problem PRIVATE
     ASSETS_PATH="${CMAKE_CURRENT_SOURCE_DIR}/Assets/"
     LEVELS_PATH="${CMAKE_CURRENT_SOURCE_DIR}/levels/"
 )
+
+install(TARGETS CMSC11-Machine-Problem RUNTIME DESTINATION .)
+install(DIRECTORY Assets levels DESTINATION .)
 
 message(STATUS "Configured ${PROJECT_NAME} with raylib support.")
 

@@ -1,5 +1,6 @@
 #include "stage1_library_render.h"
 #include "stage1_library.h"
+#include "paths.h"
 #include "raylib.h"
 
 static Texture2D tex_wall;
@@ -11,13 +12,13 @@ static Texture2D tex_lee_run;
 static Texture2D tex_pillar;
 
 void stage1_library_render_init(void) {
-    tex_wall          = LoadTexture(ASSETS_PATH "sprites/block/wall_initial_design.png");
-    tex_hanging_shelf = LoadTexture(ASSETS_PATH "sprites/block/hanging shelf.png");
-    tex_large_shelf   = LoadTexture(ASSETS_PATH "sprites/block/shelf.png");
-    tex_fan           = LoadTexture(ASSETS_PATH "sprites/block/fan.png");
-    tex_wind          = LoadTexture(ASSETS_PATH "sprites/block/wind_2.png");
-    tex_lee_run       = LoadTexture(ASSETS_PATH "sprites/effects/lee_run.png");
-    tex_pillar        = LoadTexture(ASSETS_PATH "sprites/block/pillar.png");
+    tex_wall          = LoadTexture(asset_path("sprites/block/wall_initial_design.png"));
+    tex_hanging_shelf = LoadTexture(asset_path("sprites/block/hanging shelf.png"));
+    tex_large_shelf   = LoadTexture(asset_path("sprites/block/shelf.png"));
+    tex_fan           = LoadTexture(asset_path("sprites/block/fan.png"));
+    tex_wind          = LoadTexture(asset_path("sprites/block/wind_2.png"));
+    tex_lee_run       = LoadTexture(asset_path("sprites/effects/lee_run.png"));
+    tex_pillar        = LoadTexture(asset_path("sprites/block/pillar.png"));
 }
 
 void stage1_library_render_world(void) {

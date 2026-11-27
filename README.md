@@ -119,7 +119,11 @@ On launch, a short console window asks you to choose **New Game**, **Continue**,
 
 ### Install from the installer
 
-Run the Inno Setup installer (`LeeGoSetup.exe`). It installs the game with raylib, assets, and music packaged together and adds a desktop shortcut. No other install is needed.
+To make the Windows installer, run these steps from the repository root:
+
+1. Build Release with `cmake --build build --config Release`. For a single-config generator, configure `build` with `-DCMAKE_BUILD_TYPE=Release` first.
+2. Stage the game files with `cmake --install build --config Release --prefix release`.
+3. Open `installer/lee_go.iss` in Inno Setup 6 and compile it to generate `dist/LeeGoSetup.exe`.
 
 ---
 
